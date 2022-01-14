@@ -1,80 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
-
-body {
-    font-family: 'Source Sans Pro', sans-serif;
-    margin-top: 2em;
-    margin-bottom: 3em;
-    margin-left: 5em;
-    margin-right: 5em;
+body{
+    font-family: Source Sans Pro;
     background-color: #eee;
-    font-size: .9em;
-}
-.newspaper-container {
-    background-color: white;
-    padding-top: .75em;
-    padding-left: .75em;
-    padding-right: .75em;
-    border-radius: .5em;
-    box-shadow: 10px 5px 5px#ddd;
-    width: 700px;
-}
-header div {
-    color: #777;
-}
-header h1 {
-    font-family: 'Abril Fatface', cursive;
-    font-size: 2.6em;
     text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-main h2, main h5, section h4 {
-    font-family: 'Roboto Slab', serif;
-}
-main h2 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-main h5 {
-    color: #dd3232;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
-p {
-    text-align: justify;
-    padding-left: 1em;
-    padding-right: 1em;
-}
-img {
-    width: 700px;
-    max-width: 100%;
-    height: auto;
-    }
-nav {
-    text-align: center;
-    font-size: .9em;
-}
-nav ul {
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    padding: .5em;
-}
-nav li {
-    display: inline;
-    padding: .5em;
-}
-a {
-    text-decoration: none;
-    color: #777;
 }
 
-.more-articles {
-    border-top: 1px solid #eee;
+header{
+    font-family: Abril Fatface;
+}
+
+.date{
+    text-align: left;
+    font-family: roboto slab;
+    font-size: 12px;
+}
+
+.newspaper-container{
+    margin: auto;
+    width: 800px;
+    background-color: white;
+    border-radius: 3%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 5px 5px #ddd;
+}
+
+h2{
+    font-family: Roboto Slab;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+h5{
+    color: #dd3232;
+    text-align: left;
+    font-family: Roboto Slab;
+    margin-top: 10px;
+    padding: 0px;
+}
+nav{
+    margin-left: 0;
+    
+}
+nav ul{
+    list-style-type: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0;
+}
+nav a{
+    color: #777;
+    text-decoration: none;
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+}
+main{
+    border-bottom: 1px solid #ddd;
+}
+main img{
+    width: 100%;
 }
 
 .more-articles section{
     display: inline-block;
-    width: 45%;
-    margin-left: 1em;
-    margin-right: 1em;
+    width: 40%;
+    padding: 20px;
 }
+
+h4{
+    text-align: left;
+}
+
+
+.extra-articles section{
+    display: inline-block;
+    margin: 0px;
+    width: 20%;
+    padding: 6%;
+    text-align: left;
+}
+.extra-articles img{
+    width: 100%
+}
+.extra-articles h4{
+    font-family: Roboto Slab;
+}
+© 2022 GitHub, Inc.
+Term
